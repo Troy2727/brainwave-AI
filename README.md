@@ -3,7 +3,7 @@
     <img src="https://i.ibb.co/Kqdv8j1/Image-from.png" alt="Project Banner">
   </a>
   <br />
-  <p>Project Banner Caption</p>
+  <h3>Project Banner Caption</h3>
 
   <div>
     <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" alt="vite" />
