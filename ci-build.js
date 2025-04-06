@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+/* eslint-disable no-undef */
+/* eslint-env node */
+
 // This is a CommonJS file
 
 // Polyfill for crypto.getRandomValues
@@ -27,7 +30,8 @@ try {
   console.log('Crypto polyfill applied:', !!global.crypto.getRandomValues);
 
   // Use the execSync to run the build command
-  execSync('npx vite build', { stdio: 'inherit' });
+  // We need to use the CommonJS version of Vite in this context
+  execSync('node ./node_modules/vite/bin/vite.js build', { stdio: 'inherit' });
   process.exit(0);
 } catch (error) {
   console.error('Build failed:', error);

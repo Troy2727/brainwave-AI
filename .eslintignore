@@ -1,0 +1,9 @@
+# Build scripts
+ci-build.js
+
+# Build output
+dist/
+build/
+
+# Node modules
+node_modules/
