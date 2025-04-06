@@ -39,9 +39,9 @@ jobs:
       run: npm run lint
 
     - name: Make CI build script executable
-      run: chmod +x ci-build.js
+      run: chmod +x ci-build.cjs
 
     - name: Build with CI script
-      run: ./ci-build.js
+      run: ./ci-build.cjs
       env:
         NODE_OPTIONS: --no-warnings

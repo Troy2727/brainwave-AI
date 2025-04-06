@@ -1,5 +1,6 @@
 # Build scripts
 ci-build.js
+ci-build.cjs
 
 # Build output
 dist/
