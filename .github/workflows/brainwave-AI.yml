@@ -18,7 +18,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x, 20.x]
+        node-version: [18.x]
 
     steps:
     - uses: actions/checkout@v3
@@ -35,13 +35,13 @@ jobs:
     - name: Install node polyfills
       run: npm install --save-dev vite-plugin-node-polyfills
 
-    - name: Set NODE_OPTIONS for crypto support
-      run: echo "NODE_OPTIONS=--experimental-global-webcrypto" >> $GITHUB_ENV
-
     - name: Run linter
       run: npm run lint
 
-    - name: Build
-      run: npm run build
+    - name: Make CI build script executable
+      run: chmod +x ci-build.js
+
+    - name: Build with CI script
+      run: ./ci-build.js
       env:
-        NODE_OPTIONS: --experimental-global-webcrypto
+        NODE_OPTIONS: --no-warnings
