@@ -4,7 +4,6 @@
   </a>
   <br />
   <p>Project Banner Caption</p>
-</div>
 
   <div>
     <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" alt="vite" />
@@ -13,7 +12,6 @@
   </div>
 
   <h3 align="center">Modern UI/UX website</h3>
-
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -722,7 +720,7 @@ const Section = ({
 }) => (
   <div
     id={id}
-    className={`relative 
+    className={`relative
     ${
       customPaddings ||
       `py-10 lg:py-16 xl:py-20 ${crosses ? "lg:py-32 xl:py-40" : ""}`
