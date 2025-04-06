@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://youtu.be/B91wc5dCEBA" target="_blank">
+  <a href="https://youtu.be/B91wc5dCEBB" target="_blank">
     <img src="https://i.imgur.com/1PWxPPr.jpg" alt="Project Banner" width="800">
   </a>
   <br />
@@ -23,6 +23,8 @@
 5. 🕸️ [Snippets](#snippets)
 6. 🔗 [Links](#links)
 7. 🚀 [More](#more)
+   - [How to Add Images to README](#how-to-add-images-to-readme)
+   - [Image Best Practices](#image-best-practices)
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -34,6 +36,10 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
+<div align="center">
+  <img src="https://i.imgur.com/rq4wVpu.png" alt="Tech Stack" width="600">
+</div>
+
 - Vite
 - React.js
 - Tailwind CSS
@@ -42,19 +48,35 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Beautiful Sections**: Includes hero, services, features, how to use, roadmap, pricing, footer, and header.
 
+![Hero Section](https://i.imgur.com/vTYUiU5.jpg)
+
 👉 **Parallax Animations**: Engaging effects triggered by mouse movement and scrolling
+
+![Parallax Animation](https://i.imgur.com/JvVOUy3.gif)
 
 👉 **Complex UI Geometry**: Utilizes tailwindcss for intricate shapes like circular feature displays, grid lines, and side lines.
 
+![UI Geometry](https://i.imgur.com/8oLjF1D.jpg)
+
 👉 **Latest UI Trends**: Incorporates modern design elements such as bento grids.
+
+![Bento Grid](https://i.imgur.com/ViU5InS.jpg)
 
 👉 **Cool Gradients**: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
 
+![Gradients](https://i.imgur.com/7kJFVc8.jpg)
+
 👉 **Responsive**: Ensures seamless functionality and aesthetics across all devices
+
+![Responsive Design](https://i.imgur.com/VIHVpIQ.jpg)
 
 and many more, including code architecture and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
+
+<div align="center">
+  <img src="https://i.imgur.com/1nhsIe3.png" alt="Quick Start Guide" width="600">
+</div>
 
 Follow these steps to set up the project locally on your machine.
 
@@ -837,8 +859,52 @@ export default Roadmap;
 
 ## <a name="links">🔗 Links</a>
 
+<div align="center">
+  <img src="https://i.imgur.com/Hy2Qkr3.jpg" alt="Project Links" width="600">
+</div>
+
 - [Assets](https://drive.google.com/file/d/1JKzwPl_hnpjIlNbwfjMagb4HosxnyXbf/view?usp=sharing)
 - [Design](https://drive.google.com/file/d/15WJMOchujvaQ7Kg9e0nGeGR7G7JOeX1K/view?usp=sharing)
 - [Absolute Relative Positioning](https://css-tricks.com/absolute-positioning-inside-relative-positioning/)
 - [Live Website](https://brainwave-tfz2.vercel.app/)
+
+## <a name="more">🚀 More</a>
+
+### How to Add Images to README
+
+There are several ways to add images to your README.md file:
+
+#### 1. Using External Image Hosting
+
+```markdown
+![Alt Text](https://i.imgur.com/example.jpg)
+```
+
+#### 2. Using Images from Your Repository
+
+```markdown
+![Alt Text](./docs/images/example.jpg)
+```
+
+#### 3. Using HTML for More Control
+
+```html
+<div align="center">
+  <img src="./path/to/image.jpg" alt="Description" width="600">
+</div>
+```
+
+#### 4. Adding Images with Links
+
+```markdown
+[![Alt Text](./path/to/image.jpg)](https://your-link.com)
+```
+
+### Image Best Practices
+
+- Use descriptive alt text for accessibility
+- Optimize images for web (compress them)
+- Consider using relative paths for repository images
+- Use width attributes to control image size
+- Place large images in a dedicated folder like `docs/images`
 
