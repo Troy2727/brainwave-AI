@@ -10,8 +10,6 @@
     <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="react.js" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="tailwindcss" />
   </div>
-
-  <h3 align="center">Modern UI/UX website</h3>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -25,8 +23,6 @@
 7. 🚀 [More](#more)
 
 ## <a name="introduction">🤖 Introduction</a>
-
-![Brainwave AI Robot](./src/assets/hero/robot.jpg)
 
 Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.
 
