@@ -1,9 +1,9 @@
 <div align="center">
   <a href="https://youtu.be/B91wc5dCEBB" target="_blank">
-    <img src="https://i.imgur.com/1PWxPPr.jpg" alt="Project Banner" width="800">
+    <img src="./src/assets/brainwave.jpg" alt="Brainwave AI" width="800">
   </a>
   <br />
-  <h3>Project Banner Caption</h3>
+  <h3>Brainwave AI - Modern UI/UX Website</h3>
 
   <div>
     <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="vite" />
@@ -26,7 +26,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-![Brainwave AI](./src/assets/brainwave.jpg)
+![Brainwave AI Robot](./src/assets/hero/robot.jpg)
 
 Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.
 
